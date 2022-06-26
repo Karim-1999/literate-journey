@@ -1,0 +1,98 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 10%);
+    grid-template-rows: repeat(7, 15%);
+    grid-template-areas: 
+    "header header header header"
+    "più sottrazione moltiplicazione divisione"
+    "sette otto nove uguale"
+    "quattro cinque sei uguale"
+    "uno due tre uguale"
+    "zero punto ac uguale";
+  }
+  
+  .header {
+    grid-area: header;
+    text-align: right;
+    background-color: rgba(66,76,82,255);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color: white;
+    padding: 5px;
+  }
+  
+  div {
+    text-align: center;
+    border: 1px solid rgba(137,157,174,255);
+  }
+  
+  h1 {
+    margin-top: 10px;
+  }
+  
+  .più {
+    background-color:  rgba(210,220,227,255);
+  }
+  
+  .meno {
+    background-color: rgba(210,220,227,255);
+  }
+  
+  .per {
+    background-color: rgba(210,220,227,255);
+  }
+  
+  .diviso {
+    background-color: rgba(210,220,227,255);
+  }
+  
+  .uguale {
+    grid-area: uguale;
+    background-color: rgba(247,112,119,255);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom-right-radius: 10px;
+  }
+  
+  .quattro {
+    grid-area: quattro;
+  }
+  
+  .cinque {
+    grid-area: cinque;
+  }
+  
+  .sei {
+    grid-area: sei;
+  }
+  
+  .sette {
+    grid-area: sette;
+  }
+  
+  .otto {
+    grid-area: otto;
+  }
+  
+  .nove {
+    grid-area: nove;
+  }
+  
+  .zero {
+    grid-area: zero;
+    border-bottom-left-radius: 10px;
+  }
+  
+  .sette {
+    grid-area: sette;
+  }
+  
+  .otto {
+    grid-area: otto;
+  }
+  
+  .nove {
+    grid-area: nove;
+  }
